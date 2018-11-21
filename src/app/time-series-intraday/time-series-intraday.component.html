@@ -1,0 +1,9 @@
+<!-- <ul>
+    <li *ngFor="let items of restItems">
+      {{ items }}
+    </li>
+</ul> -->
+
+<div *ngFor="let item of restItems | keyvalue">
+    data & time : <b>{{item.key}}</b> and Value: <b>{{item.value}}</b>
+</div>
