@@ -11,6 +11,7 @@ import { TimeSeriesDailyComponent } from './time-series-daily/time-series-daily.
 import { TimeSeriesWeeklyComponent } from './time-series-weekly/time-series-weekly.component';
 import { TimeSeriesMonthlyComponent } from './time-series-monthly/time-series-monthly.component';
 import { HomeComponent } from './home/home.component';
+import { ObjectKeyValuePipePipe } from './object-key-value-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HomeComponent } from './home/home.component';
     TimeSeriesDailyComponent,
     TimeSeriesWeeklyComponent,
     TimeSeriesMonthlyComponent,
-    HomeComponent
+    HomeComponent,
+    ObjectKeyValuePipePipe
   ],
   imports: [
     BrowserModule,
